@@ -1,0 +1,7 @@
+{
+    "threads"       : 1,
+    "model-path"    : "path/to/your/llama/model",
+    "host"          : "127.0.0.1",
+    "port"          : 5000,
+    "gpu"           : 0
+}
