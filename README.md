@@ -13,6 +13,7 @@ You can do it by following the installation guide at https://github.com/marella/
 **2) Download a LLaMA model**
 
 The server supposed to work with any LLaMA model with Alpaca style prompts.
+
 Models that are confirmed to be working:
 * https://huggingface.co/TheBloke/WizardLM-1.0-Uncensored-Llama2-13B-GGML
 * https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGML
@@ -41,4 +42,4 @@ You can configure the server by editing the `config.json` file
 
 Start the server by running `server.py`. Now, you can send request to it from your client.
 
-A simple client can be started by running `client.py`. In the future, more advanced GUI client would be added too.
+A simple client can be started by running `client.py`. In the future, more advanced GUI client would be added too. The prototype of the GUI client is currently available, but it has no actual use.
